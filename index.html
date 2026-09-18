@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Central de Mensagens • Tedsys</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="brand">Central de Mensagens</div>
+      <div class="subtitle">Atendimento • Tedsys</div>
+    </div>
+    <button id="themeBtn" class="icon-btn" title="Alternar tema">☾</button>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Mensagens prontas</h1>
+      <p>Encontre, personalize e copie suas respostas de atendimento.</p>
+      <div class="search-wrap">
+        <span>⌕</span>
+        <input id="search" type="search" placeholder="Pesquisar mensagem..." autocomplete="off">
+      </div>
+    </section>
+
+    <nav id="categories" class="categories"></nav>
+    <div id="count" class="count"></div>
+    <section id="messages" class="grid"></section>
+    <div id="empty" class="empty hidden">Nenhuma mensagem encontrada.</div>
+  </main>
+
+  <footer>Central de Mensagens • criada para agilizar seu atendimento</footer>
+  <script src="messages.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
