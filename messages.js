@@ -1,4 +1,5 @@
- {
+const messages = [
+{
  category: "Atendimento",
  title: "Saudação inicial",
  text: "Olá! Tudo bem? Meu nome é [SEU NOME] e vou realizar o seu atendimento. Como posso te ajudar?"
